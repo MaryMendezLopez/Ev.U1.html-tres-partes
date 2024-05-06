@@ -1,0 +1,114 @@
+/* Estilos para el body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el header */
+header {
+    text-align: center;
+    background-color: #333; /* Color de fondo oscuro */
+    color: #fff; /* Texto en color blanco para contraste */
+    padding: 20px 0; /* Añade espacio alrededor del título */
+}
+
+/* Estilos para el navbar */
+nav {
+    background-color: #FF5733; /* Color de fondo naranja */
+    padding: 10px 0; /* Añade espacio alrededor del navbar */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block; /* Cambia a inline-block para que todos tengan el mismo tamaño */
+    margin-right: 10px; /* Ajusta el margen entre elementos */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Texto en color blanco */
+    padding: 10px 20px; /* Ajusta el espacio alrededor de los enlaces */
+    border-radius: 5px; /* Añade bordes redondeados */
+    transition: background-color 0.3s ease; /* Agrega transición para suavizar el cambio de color */
+}
+
+nav ul li a:hover {
+    background-color: #333; /* Cambia el color de fondo al pasar el ratón */
+}
+
+/* Estilos para la sección */
+section {
+    text-align: center; /* Alinea el contenido al centro */
+}
+
+/* Estilos para las imágenes */
+.gallery {
+    display: flex; /* Usa flexbox para alinear las imágenes */
+    justify-content: center; /* Centra horizontalmente las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan en varias líneas */
+}
+
+.gallery img {
+    width: 200px; /* Tamaño deseado para las imágenes */
+    height: auto; /* Altura ajustada automáticamente para mantener la proporción */
+    margin: 10px; /* Espacio entre las imágenes */
+}
+
+
+/* Estilos para el formulario y la información de contacto */
+section {
+    text-align: center;
+    margin-top: 50px; /* Añade espacio arriba del formulario */
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* Color azul */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Cambia el color al pasar el ratón */
+}
